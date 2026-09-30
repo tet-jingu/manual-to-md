@@ -1,1 +1,86 @@
+# =========================
+# PDF / Office documents
+# =========================
 *.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+# =========================
+# Secret / credential files
+# =========================
+.env
+.env.*
+*.env
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+
+credentials.json
+credential.json
+secrets.json
+secret.json
+
+config.secret.*
+config.local.*
+
+# =========================
+# Password / token related
+# =========================
+*password*
+*passwd*
+*secret*
+*token*
+*apikey*
+*api_key*
+
+# =========================
+# Backup / temporary files
+# =========================
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+*.orig
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# =========================
+# Editor settings
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS / temporary folders
+# =========================
+temp/
+tmp/
+backup/
